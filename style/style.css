@@ -12,7 +12,14 @@ main{
     width: 870px;
     padding: 30px;
 }
-/* top-pleyers Section */
+
+
+
+
+/*--------- top-pleyers Section ---------------*/
+
+
+
 .top-pleyers{
     margin-bottom: 30px;
 }
@@ -42,11 +49,18 @@ main{
 }
 hr{
     border: 1px solid #858585;
+    margin-bottom: 27px;
 }
 
 
 
 /* Top Blog start */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
 .blog{
     display: flex;
 }
